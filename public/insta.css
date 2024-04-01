@@ -226,26 +226,31 @@ footer .copyright span {
   line-height: 14px;
   color: rgba(142, 142, 142, 1);
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   footer ul {
     width: 100%;
+    
   }
+  
 }
-@media (max-width: 850px) {
+@media screen and (max-width: 1000px) {
   #image {
     display: none;
   }
 }
 
-@media (max-width: 440px) {
+@media screen and (max-width: 1000px) {
   .container {
     min-height: 80vh;
   }
   .container .col .box,
   .container .col .mini-box {
+    margin-bottom: 10px;
     border: none;
     background-color: transparent;
   }
+ 
+  
 }
 #fad{
     font-size: 12.5px;
