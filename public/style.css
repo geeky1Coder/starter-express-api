@@ -1,0 +1,352 @@
+* {/*** General Settings ***/
+    font-family: "Segoe UI";
+}
+body {/*** General Settings ***/
+    background-color: rgba(var(--b3f,250,250,250),1);
+}
+#weight-600 {
+    font-weight: 600;
+    cursor: pointer;
+}
+::placeholder {/* Search Bar Background Text */
+    text-align: center;
+    font-size: 14px;
+}
+nav{/*** Nav Bar Start ***/
+    height: 54px;
+    border-bottom: 1px solid rgb(219,219,219);
+}
+#nav-bar {
+    margin-left: 12%;
+    padding: 0 6px;
+}
+#nav-buttons {
+    padding: 0;
+    justify-content: end;
+}
+#logo {
+    cursor: pointer;
+}
+#search-bar {/* Search Input */
+    padding: 3px 10px 3px 26px;
+    border-radius: 3px;
+    outline: 0;
+    width: 215px;
+    height: 28px;
+    background-color: rgb(250,250,250);
+    font-family: "Segoe UI" sans-serif;
+}
+.nav-item {/* Nav Buttons */
+    background-color: transparent;
+    border: none;
+}
+
+#profile {/* Profile Photo */
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}/*** Nav Bar End ***/
+
+#storySide {/*** Story Side Start ***/
+    overflow: hidden;
+    position: relative;
+    margin-top: 4.8rem;
+}
+#story-photo {/* Story Profile Photo */
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+    padding: 1px;
+    cursor: pointer;
+    object-fit: cover;
+}
+label {/* Story Username */
+    font-size: 12px;
+    color: #262626;
+    overflow: hidden;
+    display: block;
+    max-width: 3.6rem;
+    max-height: 1rem;
+    cursor: pointer;
+}/*** Story Side End ***/
+
+#side-profile {/*** Right Panel ***/
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+#side-nick {/* Profile Nick */
+    color: #262626;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+#side-name {/* Profile Name and Surname */
+    font-size: 14px;
+    color: #8e8e8e;
+}
+#switch {
+    font-size: 12px;
+    color: #0095f6;
+    font-weight: 600;
+    cursor: pointer;
+}
+#suggestion {/* Suggestion For You */
+    font-size: 14px;
+    color: #8e8e8e;
+    font-weight: 600;
+}
+#see-all {
+    cursor: pointer;
+    font-size: 12px;
+    color: #262626;
+    font-weight: 600;
+}
+#suggestion-photo {/* Account Suggestion Photos */
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+#suggestion-nick {/* Account Suggestion Nick */
+    font-size: 14px;
+    color: #262626;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+#suggestion-nick:hover {
+    text-decoration: underline;
+    cursor: pointer
+}
+#suggestion-info {/* Followed by | New to IG */
+    color: #8e8e8e;
+    font-size: 12px;
+    margin-top: -4px;
+}
+#suggestion-follow {/*** Right Panel End ***/
+    font-size: 12px;
+    color: #0095f6;
+    cursor: pointer;
+    font-weight: 600;
+}
+aside{
+    margin-left: 13%;
+}
+#post {/*** Main Side ***/
+    width: 614px;
+    height: 768px;
+    object-fit: cover;
+    
+}
+#post-nick {/*** Post Owner Nick ***/
+    text-transform: lowercase;
+    font-weight: 600;
+    font-size: 14px;
+    color: #262626;
+}
+#post-nick:hover {
+    text-decoration: underline;
+}
+#dots {
+    cursor: pointer;
+}
+#buttons{
+    fill: #0a0908;
+    margin: 6px;
+    cursor: pointer;
+}
+#buttons:last-child {
+    float: right;
+    margin-right: 1rem;
+}
+#buttons:first-child {
+    margin-left: 1rem;
+}
+h6 {
+    font-weight: 600;
+    font-size: 14px;
+}
+h6:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#subtitle-profile {/* Photo on the likes */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+#bottom-bar {
+    font-size: 14px;
+}
+#show-comments {/* View All Comments */
+    color: #8e8e8e;
+    cursor: pointer;
+}
+#comment-like {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+#time-info {
+    color: #8e8e8e;
+    font-size: 10px;
+}
+#icons {/* Emoji */
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+#comment-input {
+    color: #262626;
+    font-size: 14px;
+    outline: none;
+    text-align: start;
+}/*** Main End ***/
+
+#footer {/*** Footer Start ***/
+    font-size: 11px;
+    color: #c7c7c7;
+    font-family: "Segoe UI" sans-serif;
+
+}
+#footer-pages {
+    font-size: 11px;
+    color: #c7c7c7;
+    font-family: "Segoe UI" sans-serif;
+    text-decoration: none; 
+    margin-left: -8px;
+}
+#footer-pages:first-child {
+    list-style: none;
+}
+#post-profile {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}/*** Footer End ***/
+#post-profile-story {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+    padding: 1px;
+}/*** Footer End ***/
+
+/*** Mobile Elements ***/
+#mobile-top-nav {
+    display: none;
+}
+#mobile-storySide {
+    display: none;
+}
+#post-side-mobile {
+    display: none;
+}
+#mobile-bottom-nav {
+    display: none;
+}
+
+    @media only screen and (max-width: 1400px){
+        #nav-buttons {
+            justify-content: end !important;
+        }
+        .col-9 {
+            width: 79% ;
+        }
+    }
+    @media only screen and (max-width: 1200px){
+        .col-9 {
+            width: 75%;
+        }
+    }
+    @media only screen and (max-width: 800px){
+        .container, #nav-bar {
+            min-width: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important; 
+        }
+        #logo {
+            margin-left: 1rem;
+        }
+        #nav-buttons{
+            margin-right: 1rem;
+        }
+    }
+
+    @media only screen and (max-width: 500px){
+        .navbar {
+            display: none;
+        }
+        #mobile-top-nav {
+            display: flex;
+            height: 48px;
+        }
+        #logo {
+            margin-left: 0;
+        }
+        #storySide {
+            display: none;
+        }
+        #mobile-storySide{
+            display: flex;
+            overflow: scroll;
+        }
+        aside {
+            margin: 0;
+            padding: 0 !important;
+        }
+        #story-photo {
+            padding: 1.6px;
+        }
+        #mobile-storySide ul li{
+            margin: 0 8px;
+        }
+        #story-photo-noBorder{
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            border: none;
+            padding: 1px;
+            cursor: pointer;
+            object-fit: cover;
+        }
+        #plus {
+            border-radius: 50%;
+            margin-left: -1.2rem;
+            margin-top: 72%;
+            border: 0.2px solid white;
+        }
+        #post-side {
+            display: none;
+        }
+        #post-side-mobile {
+            display: flex;
+        }
+        #mobile-bottom-nav {
+            display: flex;
+        }
+        main {
+            padding: 0 !important;
+        }
+        #post-top-bar {
+            margin: 0 1rem;
+        }
+        #bottom-bar {
+            font-size: 14px;
+            margin: 0 1rem;
+        }
+    }
